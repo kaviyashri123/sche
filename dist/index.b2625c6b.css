@@ -1,0 +1,130 @@
+body {
+  background: radial-gradient(circle, #727094 0%, #9c5eaa 45%, #8542f0 100%);
+}
+
+.card {
+  background: none !important;
+}
+
+#time_quanta {
+  background-image: linear-gradient(to left, #fff1f1, #cde5ff);
+}
+
+.gantt-box {
+  height: 5px;
+  text-align: center;
+  border: 3px solid #73ad21;
+  padding: 50px;
+  position: relative;
+}
+
+.gantt-box-left {
+  margin-left: 3px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.gantt-box-right {
+  margin-right: 3px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+#time_quanta {
+  width: auto;
+}
+
+#start_btn {
+  color: #f0f8ff;
+  background-color: #00bd10;
+  transition: opacity .15s ease-in-out, color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+#start_btn:hover {
+  opacity: .8;
+}
+
+#drop_btn {
+  color: #f0f8ff;
+  background-color: #03ab0e;
+  transition: opacity .15s ease-in-out, color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+#drop_btn:hover {
+  opacity: .8;
+}
+
+#vis_btn {
+  color: #f0f8ff;
+  background-color: #b152ff;
+  transition: opacity .15s ease-in-out, color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+#vis_btn:hover {
+  opacity: .8;
+}
+
+.cpu {
+  width: 120px;
+  height: 120px;
+  background: url("image5.f628000e.png") 0 0 / cover no-repeat;
+  margin: 20px;
+}
+
+.readyqueue {
+  height: 120px;
+  width: 120px;
+  background: url("queue.2711bae2.png") 0 0 / contain no-repeat;
+}
+
+.fitem {
+  width: 120px;
+  height: 120px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.flexible {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  z-index: 4;
+  background-color: #e6e7e8;
+  border-top: 0 solid #0000;
+  border-bottom: 80px solid #0000;
+  border-left: 0 solid #fff;
+  border-right: 80px solid #fff;
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.logo {
+  z-index: 5;
+  position: absolute;
+  top: 3px;
+  right: 10px;
+}
+
+@media only screen and (width <= 600px) {
+  .triangle {
+    border-width: 0 65px 50px 0;
+  }
+}
+
+@media only screen and (width >= 768px) {
+  .triangle {
+    border-width: 0 80px 80px 0;
+  }
+}
+
+/*# sourceMappingURL=index.b2625c6b.css.map */
